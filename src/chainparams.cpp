@@ -169,8 +169,10 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("testseednode1", "testnode1.stratisplatform.com"));
-        vSeeds.push_back(CDNSSeedData("testseednode2", "testnode2.stratis.cloud"));
+        vSeeds.push_back(CDNSSeedData("testseednode1", "testnet1.stratisplatform.com"));
+        vSeeds.push_back(CDNSSeedData("testseednode2", "testnet2.stratisplatform.com"));
+        vSeeds.push_back(CDNSSeedData("testseednode3", "testnet3.stratisplatform.com"));
+        vSeeds.push_back(CDNSSeedData("testseednode4", "testnet4.stratisplatform.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65); // stratis test net start with T
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 196);
